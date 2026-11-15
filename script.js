@@ -16,3 +16,4 @@ function mux4to1(D0, D1, D2, D3, S1, S0) {
 console.log(mux4to1(1, 0, 0, 0, 0, 0));
 console.log(mux4to1(0, 1, 0, 0, 0, 1));
 console.log(mux4to1(0, 0, 1, 0, 1, 0));
+console.log(mux4to1(1, 1, 0, 1, 1, 0));
