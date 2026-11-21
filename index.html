@@ -54,6 +54,7 @@
             </div>
         </section>
 
+
         <!-- Decoder Section -->
         <section class="input-area">
             <h2>2-to-4 Decoder</h2>
@@ -66,14 +67,16 @@
             <label for="b">Input B:</label>
             <input type="text" id="b" placeholder="Enter 0 or 1">
 
-            <button type="button">Run Decoder</button>
+            <button type="button" id="runDecoderBtn">
+                Run Decoder
+            </button>
 
             <div class="result-area">
                 <h3>Decoder Outputs</h3>
-                <p>Y0: Result will appear here.</p>
-                <p>Y1: Result will appear here.</p>
-                <p>Y2: Result will appear here.</p>
-                <p>Y3: Result will appear here.</p>
+                <p id="y0">Y0: Result will appear here.</p>
+                <p id="y1">Y1: Result will appear here.</p>
+                <p id="y2">Y2: Result will appear here.</p>
+                <p id="y3">Y3: Result will appear here.</p>
             </div>
         </section>
 
@@ -83,4 +86,5 @@
     <script src="script.js"></script>
 
 </body>
-</html>
+                </html>
+                
